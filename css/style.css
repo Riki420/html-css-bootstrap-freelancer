@@ -1,0 +1,11 @@
+header{
+    min-height: 80px;
+}
+
+.my-s-border{
+    border: 1px solid black;
+}
+
+.my-s-height{
+    min-height: 100px;
+}
