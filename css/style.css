@@ -10,6 +10,14 @@ header{
     min-height: 100px;
 }
 
+.my-s-height-m{
+    min-height: 400px;
+}
+
+.my-s-height-l{
+    min-height: 1000px;
+}
+
 .my-s-bg-1{
     background-color: #1abc9c;
 }
