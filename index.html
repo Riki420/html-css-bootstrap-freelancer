@@ -44,7 +44,7 @@
     <main> 
 
         <!--JUMBOTRON-->
-        <section class="container-fluid my-s-bg-1">
+        <section class="container-fluid my-s-bg-1 pt-4 pb-4">
             <div class="row">
                 <div class="col-12">
                     <div class="content">
@@ -66,7 +66,7 @@
         </section>
 
         <!--PORTFOLIO-->
-        <section class="container">
+        <section class="container pt-4 pb-4">
             <div class="row g-3 mt-4">
 
                 <div class="col-12 my-s-height text-center">
@@ -99,8 +99,8 @@
         </section>
 
         <!--ABOUT-->
-        <section class="container-fluid my-s-bg-1">
-            <div class="row mt-4">
+        <section class="container-fluid my-s-bg-1 pt-4 pb-4">
+            <div class="row mt-4 pt-4">
                 <div class="col text-center text-light">
                     <h1>ABOUT</h1>
                 </div>
@@ -109,21 +109,38 @@
                 </div>
                 <div class="col-12 col-md-4 offset-md-2 text-light mt-3">Freelancer is a Bootstrap theme created by star Bootstrap. The downloading including HTML, CSS and Javascript as well as optional LESS stylesheet for easy costumization.</div>
                 <div class="col-12 col-md-4 text-light mt-3">Wheter you're a student looking to showcase your work, a professional looking to share your projects, this template is the perfect starting point!</div>
-                <div class="col-12">
+                <div class="col-12 pb-4">
                     <button type="button" class="btn btn-success mx-auto d-block mt-5"><i class="fas fa-download me-2"></i>Download</button>
                 </div>
             </div>
         </section>
 
         <!--CONTACT-->
-        <section class="container my-s-height">
+        <section class="container pt-4 pb-4">
             <div class="row gy-3 mt-4">
                 <div class="col text-center">
                     <h1>CONTACT ME</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col offset-lg-2 col-lg-8 my-s-height my-s-border">FORM CONTACT</div>
+                <div class="col offset-lg-2 col-lg-8 p-4">
+                    <form>
+                        <div class="mb-3">
+                            <input class="form-control" type="text" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email Adress">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                          </div>
+
+                        <button type="submit" class="btn btn-primary btn-success">Submit</button>
+                      </form>
+                </div>
             </div>
         </section>
     </main>
