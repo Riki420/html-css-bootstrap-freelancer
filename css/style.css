@@ -23,3 +23,8 @@ header{
     background-color: #2c3e50;
     color: #fff;
 }
+
+.star::after{
+    content: '';
+    background-color: #fff;
+}
