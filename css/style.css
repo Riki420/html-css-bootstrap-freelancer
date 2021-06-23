@@ -7,15 +7,7 @@ header{
 }
 
 .my-s-height{
-    min-height: 100px;
-}
-
-.my-s-height-m{
-    min-height: 400px;
-}
-
-.my-s-height-l{
-    min-height: 1000px;
+    min-height: 80px;
 }
 
 .my-s-bg-1{
