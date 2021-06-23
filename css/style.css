@@ -20,6 +20,12 @@
     text-decoration: none;
 }
 
+/*WIDTH*/
+
+.w-80{
+    width: 80%;
+}
+
 /*STAR*/
 
 .star::after{
