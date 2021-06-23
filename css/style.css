@@ -1,7 +1,4 @@
-header{
-    min-height: 80px;
-}
-
+/*BG-COLOR*/
 .my-s-bg-1{
     background-color: #1abc9c;
 }
@@ -16,13 +13,26 @@ header{
     color: #fff;
 }
 
+/*TEXT COLOR*/
+
 .my-s-text-green{
     color: #1abc9c;
     text-decoration: none;
 }
 
+/*STAR*/
+
 .star::after{
     content: '';
     background-color: #fff;
+    height: 10px;
+    width: 20%;
+}
+
+.star::before{
+    content: '';
+    background-color: #fff;
+    height: 10px;
+    width: 20%;
 }
 
